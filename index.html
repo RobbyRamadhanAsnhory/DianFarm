@@ -27,6 +27,7 @@
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
     <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
@@ -58,14 +59,14 @@
 
         <h1 class="logo me-auto">
           <a href="index.html" style="width: 100%; height: auto">
-            <span style="margin-left: 0px">Dian Farm</span>
+            <span style="margin-left: 0px"><img src="assets/img/logo.png" alt="" /></span>
           </a>
         </h1>
 
         <nav id="navbar" class="navbar order-last order-lg-0">
           <ul>
             <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-            <li><a class="nav-link scrollto" href="#about">About</a></li>
+            <!-- <li><a class="nav-link scrollto" href="#about">About</a></li> -->
             <li><a class="nav-link scrollto" href="#categories">Categories</a></li>
             <li><a class="nav-link scrollto" href="#menu">Product</a></li>
             <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
@@ -219,22 +220,22 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-3 col-md-3 col-sm-6 p-5 mt-3" data-aos="fade-right">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-6 p-5 mt-3" data-aos="fade-right">
           <img src="./assets/img/Bayam Jepang (Horenzo).jpg" class="rounded-circle img-fluid border" />
           <h5 class="text-center mt-3 mb-3">Sayuran Daun</h5>
           <p class="text-center"><a href="#menu" class="btn btn-success">Selengkapnya</a></p>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-6 p-5 mt-3" data-aos="fade-right">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-6 p-5 mt-3" data-aos="fade-right">
           <img src="./assets/img/Brokoli.jpg" class="rounded-circle img-fluid border"/>
           <h2 class="h5 text-center mt-3 mb-3">Sayuran Non Daun</h2>
           <p class="text-center"><a href="#menu" class="btn btn-success">Selengkapnya</a></p>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-6 p-5 mt-3" data-aos="fade-left">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-6 p-5 mt-3" data-aos="fade-left">
           <img src="./assets/img/Bawang Putih.jpg" class="rounded-circle img-fluid border"/>
           <h2 class="h5 text-center mt-3 mb-3">Bumbu Dapur</h2>
           <p class="text-center"><a href="#menu" class="btn btn-success">Selengkapnya</a></p>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-6 p-5 mt-3" data-aos="fade-left">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-6 p-5 mt-3" data-aos="fade-left">
           <img src="./assets/img/product/Tempe Premium.png" class="rounded-circle img-fluid border" />
           <h2 class="h5 text-center mt-3 mb-3">Protein</h2>
           <p class="text-center"><a class="btn btn-success">Selengkapnya</a></p>
@@ -246,6 +247,7 @@
     <!-- Start Content -->
     <section id="menu" class="menu">
     <div class="container">
+
       <div class="row text-center pt-3">
 
         <div class="col-lg-6 m-auto" data-aos="fade-up">
@@ -282,308 +284,339 @@
 
       <!-- Start Content Sayuran Daun -->
       <div class="tab-content" data-aos="fade-up" data-aos-delay="300">
+
+        
+       
       <div class="tab-pane fade active show" id="menu-sd">
       <div class="tab-header text-center">
         <p>Kategori</p>
         <h3>Sayuran Daun</h3>
       </div>
+
+      <!-- <div class="row d-flex justify-content-center">
+        <div class="col-md-6">
+      <div class="input-group  ">
+        <input type="text" placeholder="Search......." class="form-control " id="inp">
+        <div class="input-group-append">
+            <button type="button"  class="btn btn-dark" id="search">Search</button>
+        </div>
+    </div>
+    </div>
+    </div> -->
+
+    <h1 class="display-3 text-center text-muted "  id="not_find_any_thing"></h1>
           
           <div class="row gy-3">
             <!-- Start Content 1 Sayuran Daun -->
-            <div class= "col-lg-3 col-md-3 col-sm-4 menu-item">
+            <div class= "col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/sayur-daun/Bayam Hijau.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-daun/Bayam Hijau.jpg" /></a>
                 
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Bayam Hijau</h4>
+                  <h4 class="text-decoration-none card-title">Bayam Hijau</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li> Ukuran (kg): 0.25</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 6.000</p>
+                  <p class="text-center mb-3">Rp. 6.000</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Bayam%20Hijau.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
            <!-- End Content 1 Sayuran Daun -->
             
             <!-- Start Content 2 Sayuran Daun -->
-            <div class= "col-lg-3 col-md-3 col-sm-4 menu-item">
+            <div class= "col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/sayur-daun/Bayam Jepang (Horenzo).jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-daun/Bayam Jepang (Horenzo).jpg" /></a>
                  
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none" >Bayam Jepang</h4>
+                  <h4 class="text-decoration-none card-title" >Bayam Jepang</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.25</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 12.500</p>
+                  <p class="text-center mb-3">Rp. 12.500</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Bayam%20Jepang.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- Start Content 2 Sayuran Daun -->
 
               <!-- Start Content 3 Sayuran Daun -->
-              <div class= "col-lg-3 col-md-3 col-sm-4 menu-item">
+              <div class= "col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
                 <div class="card mb-3 product-wap rounded-0">
                   <div class="card rounded-0">
                     <a href="assets/img/product/sayur-daun/Caisim.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-daun/Caisim.png" /></a>
                    
                   </div>
                   <div class="card-body">
-                    <h4 class="text-decoration-none" >Caisim</h4>
+                    <h4 class="text-decoration-none card-title" >Caisim</h4>
                     <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                       <li>Ukuran (kg): 0.25</li>
                      
                     </ul>
                    
-                    <p class="text-center mb-0">Rp. 12.500</p>
+                    <p class="text-center mb-3">Rp. 12.500</p>
+                    <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Caisim.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                   </div>
                 </div>
               </div>
               <!-- Start Content 3 Sayuran Daun -->
 
                  <!-- Start Content 4 Sayuran Daun -->
-                 <div class= "col-lg-3 col-md-3 col-sm-4 menu-item">
+                 <div class= "col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
                   <div class="card mb-3 product-wap rounded-0">
                     <div class="card rounded-0">
                       <a href="assets/img/product/sayur-daun/Daun Melinjo.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-daun/Daun Melinjo.png" /></a>
                      
                     </div>
                     <div class="card-body">
-                      <h4 class="text-decoration-none" >Daun Melinjo</h4>
+                      <h4 class="text-decoration-none card-title" >Daun Melinjo</h4>
                       <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                         <li>Ukuran (kg): 0.125</li>
                        
                       </ul>
                      
-                      <p class="text-center mb-0">Rp. 12.500</p>
+                      <p class="text-center mb-3">Rp. 12.500</p>
+                      <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Daun%20Melinjo.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                     </div>
                   </div>
                 </div>
                 <!-- End Content 4 Sayuran Daun -->
 
             <!-- Start Content 5 Sayuran Daun -->
-            <div class= "col-lg-3 col-md-3 col-sm-4 menu-item">
+            <div class= "col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/sayur-daun/Kangkung.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-daun/Kangkung.jpg" /></a>
 
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Kangkung</h4>
+                  <h4 class="text-decoration-none card-title">Kangkung</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.25</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 6.000</p>
+                  <p class="text-center mb-3">Rp. 6.000</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Kangkung.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 5 Sayuran Daun -->
 
              <!-- Start Content 6 Sayuran Daun -->
-             <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+             <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/sayur-daun/Kale Keriting.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-daun/Kale Keriting.png" /></a>
 
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Kale Keriting</h4>
+                  <h4 class="text-decoration-none card-title">Kale Keriting</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.2</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 12.000</p>
+                  <p class="text-center mb-3">Rp. 12.000</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Kale%20Keriting.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 6 Sayuran Daun -->
 
             <!-- Start Content 7 Sayuran Daun -->
-            <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/sayur-daun/Pakcoy Baby.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-daun/Pakcoy Baby.jpg" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Pakcoy Baby</h4>
+                  <h4 class="text-decoration-none card-title">Pakcoy Baby</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.25</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 8.000</p>
+                  <p class="text-center mb-3">Rp. 8.000</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Pakcoy%20Baby.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 7 Sayuran Daun -->
 
               <!-- Start Content 8 Sayuran Daun -->
-              <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+              <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
                 <div class="card mb-3 product-wap rounded-0">
                   <div class="card rounded-0">
                     <a href="assets/img/product/sayur-daun/Pakcoy Hijau.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-daun/Pakcoy Hijau.jpg" /></a>
                     
                   </div>
                   <div class="card-body">
-                    <h4 class="text-decoration-none">Pakcoy Hijau</h4>
+                    <h4 class="text-decoration-none card-title">Pakcoy Hijau</h4>
                     <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                       <li>Ukuran (kg): 0.25</li>
                      
                     </ul>
                    
-                    <p class="text-center mb-0">Rp. 6.000</p>
+                    <p class="text-center mb-3">Rp. 6.000</p>
+                    <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Pakcoy%20Hijau.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                   </div>
                 </div>
               </div>
               <!-- End Content 8 Sayuran Daun -->
 
               <!-- Start Content 9 Sayuran Daun -->
-            <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/sayur-daun/Selada Keriting.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-daun/Selada Keriting.jpg" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Selada Keriting</h4>
+                  <h4 class="text-decoration-none card-title">Selada Keriting</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.25</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 6.000</p>
+                  <p class="text-center mb-3">Rp. 6.000</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Selada%20Keriting.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 9 Sayuran Daun -->
 
              <!-- Start Content 10 Sayuran Daun -->
-             <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+             <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/sayur-daun/Siomak Hijau.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-daun/Siomak Hijau.png" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Siomak Hijau</h4>
+                  <h4 class="text-decoration-none card-title">Siomak Hijau</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.25</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 8.000</p>
+                  <p class="text-center mb-3">Rp. 8.000</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Siomak%20Hijau.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 10 Sayuran Daun -->
 
             <!-- Start Content 11 Sayuran Daun -->
-            <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/sayur-daun/Daun Pepaya.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-daun/Daun Pepaya.png" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Daun Pepaya</h4>
+                  <h4 class="text-decoration-none card-title">Daun Pepaya</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.25</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 10.000</p>
+                  <p class="text-center mb-3">Rp. 10.000</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Daun%20Pepaya.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 11 Sayuran Daun -->
 
              <!-- Start Content 12 Sayuran Daun -->
-             <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+             <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/sayur-daun/lolorosa lettuce.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-daun/lolorosa lettuce.png" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Lollorosa Lettuce</h4>
+                  <h4 class="text-decoration-none card-title">Lollorosa Lettuce</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.25</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 17.500</p>
+                  <p class="text-center mb-3">Rp. 17.500</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Lollorosa%20Lettuce.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 12 Sayuran Daun -->
 
             <!-- Start Content 13 Sayuran Daun -->
-            <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/sayur-daun/romaine lettuce.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-daun/romaine lettuce.png" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Romaine Lettuce</h4>
+                  <h4 class="text-decoration-none card-title">Romaine Lettuce</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.25</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 10.000</p>
+                  <p class="text-center mb-3">Rp. 10.000</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Romaine%20Lettuce.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 13 Sayuran Daun -->
 
               <!-- Start Content 14 Sayuran Daun -->
-              <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+              <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
                 <div class="card mb-3 product-wap rounded-0">
                   <div class="card rounded-0">
                     <a href="assets/img/product/sayur-daun/Lettuce Iceberg.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-daun/Lettuce Iceberg.png" /></a>
                     
                   </div>
                   <div class="card-body">
-                    <h4 class="text-decoration-none">Lettuce Iceberg</h4>
+                    <h4 class="text-decoration-none card-title">Lettuce Iceberg</h4>
                     <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                       <li>Ukuran (kg): 0.25</li>
                      
                     </ul>
                    
-                    <p class="text-center mb-0">Rp. 9.000</p>
+                    <p class="text-center mb-3">Rp. 9.000</p>
+                    <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Lettuce%20Iceberg.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                   </div>
                 </div>
               </div>
               <!-- End Content 14 Sayuran Daun -->
 
                <!-- Start Content 15 Sayuran Daun -->
-               <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+               <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
                 <div class="card mb-3 product-wap rounded-0">
                   <div class="card rounded-0">
                     <a href="assets/img/product/sayur-daun/Wansui_Coriander.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-daun/Wansui_Coriander.png" /></a>
                     
                   </div>
                   <div class="card-body">
-                    <h4 class="text-decoration-none">Wansui</h4>
+                    <h4 class="text-decoration-none card-title">Wansui</h4>
                     <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                       <li>Ukuran (kg): 0.25</li>
                      
                     </ul>
                    
-                    <p class="text-center mb-0">Rp. 20.000</p>
+                    <p class="text-center mb-3">Rp. 20.000</p>
+                    <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Wansui.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                   </div>
                 </div>
               </div>
@@ -591,20 +624,21 @@
 
               
                <!-- Start Content 16 Sayuran Daun -->
-               <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+               <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
                 <div class="card mb-3 product-wap rounded-0">
                   <div class="card rounded-0">
                     <a href="assets/img/product/sayur-daun/Kailan.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-daun/Kailan.png" /></a>
                     
                   </div>
                   <div class="card-body">
-                    <h4 class="text-decoration-none">Kailan</h4>
+                    <h4 class="text-decoration-none card-title">Kailan</h4>
                     <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                       <li>Ukuran (kg): 0.25</li>
                      
                     </ul>
                    
-                    <p class="text-center mb-0">Rp. 10.000</p>
+                    <p class="text-center mb-3">Rp. 10.000</p>
+                    <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Kailan.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                   </div>
                 </div>
               </div>
@@ -612,20 +646,21 @@
 
                
                <!-- Start Content 17 Sayuran Daun -->
-               <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+               <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
                 <div class="card mb-3 product-wap rounded-0">
                   <div class="card rounded-0">
                     <a href="assets/img/product/sayur-daun/Kailan Baby.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-daun/Kailan Baby.png" /></a>
                     
                   </div>
                   <div class="card-body">
-                    <h4 class="text-decoration-none">Kailan Baby</h4>
+                    <h4 class="text-decoration-none card-title">Kailan Baby</h4>
                     <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                       <li>Ukuran (kg): 0.25</li>
                      
                     </ul>
                    
-                    <p class="text-center mb-0">Rp. 9.000</p>
+                    <p class="text-center mb-3">Rp. 9.000</p>
+                    <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Kailan%20Baby.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                   </div>
                 </div>
               </div>
@@ -637,7 +672,9 @@
 
 
             <!-- Start Content Sayuran Non Daun -->
+           
             <div class="tab-pane fade" id="menu-snd">
+              
               <div class="tab-header text-center">
                 <p>Kategori</p>
                 <h3>Sayuran Non-Daun</h3>
@@ -645,120 +682,126 @@
 
             <div class="row gy-3">
             <!-- Start Content 1 Sayuran Non Daun -->
-            <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/sayur-non-daun/Asparagus.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Asparagus.jpg" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Asparagus</h4>
+                  <h4 class="text-decoration-none card-title">Asparagus</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.25</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 38.000</p>
+                  <p class="text-center mb-3">Rp. 38.000</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Asparagus.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 1 Sayuran Non Daun -->
 
               <!-- Start Content 2 Sayuran Non Daun -->
-              <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+              <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
                 <div class="card mb-3 product-wap rounded-0">
                   <div class="card rounded-0">
                     <a href="assets/img/product/sayur-non-daun/Beetroot.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Beetroot.jpg" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Beetroot</h4>
+                  <h4 class="text-decoration-none card-title">Beetroot</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.5</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 12.000</p>
+                  <p class="text-center mb-3">Rp. 12.000</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Beetroot.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 2 Sayuran Non Daun -->
 
               <!-- Start Content 3 Sayuran Non Daun -->
-              <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+              <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
                 <div class="card mb-3 product-wap rounded-0">
                   <div class="card rounded-0">
                     <a href="assets/img/product/sayur-non-daun/Bengkuang.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Bengkuang.jpg" /></a>
                  
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Bengkuang</h4>
+                  <h4 class="text-decoration-none card-title">Bengkuang</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 1</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 32.000</p>
+                  <p class="text-center mb-3">Rp. 32.000</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Bengkuang.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 3 Sayuran Non Daun -->
 
              <!-- Start Content 4 Sayuran Non Daun -->
-             <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+             <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/sayur-non-daun/Buncis Baby.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Buncis Baby.png" /></a>
                
               </div>
               <div class="card-body">
-                <h4 class="text-decoration-none">Buncis Baby</h4>
+                <h4 class="text-decoration-none card-title">Buncis Baby</h4>
                 <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                   <li>Ukuran (kg): 0.25</li>
                  
                 </ul>
                
-                <p class="text-center mb-0">Rp. 10.000</p>
+                <p class="text-center mb-3">Rp. 10.000</p>
+                <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Buncis%20Baby.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
               </div>
             </div>
           </div>
           <!-- End Content 4 Sayuran Non Daun -->
 
             <!-- Start Content 5 Sayuran Non Daun -->
-            <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/sayur-non-daun/Brokoli.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Brokoli.jpg" /></a>
                
               </div>
               <div class="card-body">
-                <h4 class="text-decoration-none">Brokoli</h4>
+                <h4 class="text-decoration-none card-title">Brokoli</h4>
                 <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                   <li>Ukuran (kg): 0.5</li>
                  
                 </ul>
                
-                <p class="text-center mb-0">Rp. 24.000</p>
+                <p class="text-center mb-3">Rp. 24.000</p>
+                <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Brokoli.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
               </div>
             </div>
           </div>
           <!-- End Content 5 Sayuran Non Daun -->
 
           <!-- Start Content 6 Sayuran Non Daun -->
-          <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+          <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
             <div class="card mb-3 product-wap rounded-0">
               <div class="card rounded-0">
                 <a href="assets/img/product/sayur-non-daun/Buncis.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Buncis.jpg" /></a>
              
             </div>
             <div class="card-body">
-              <h4 class="text-decoration-none">Buncis</h4>
+              <h4 class="text-decoration-none card-title">Buncis</h4>
               <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                 <li>Ukuran (kg): 0.25</li>
                
               </ul>
              
-              <p class="text-center mb-0">Rp. 12.500</p>
+              <p class="text-center mb-3">Rp. 12.500</p>
+              <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Buncis.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
             </div>
           </div>
         </div>
@@ -766,820 +809,861 @@
 
         
           <!-- Start Content 7 Sayuran Non Daun -->
-          <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+          <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
             <div class="card mb-3 product-wap rounded-0">
               <div class="card rounded-0">
                 <a href="assets/img/product/sayur-non-daun/Bunga Kecombrang Honje.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Bunga Kecombrang Honje.png" /></a>
              
             </div>
             <div class="card-body">
-              <h4 class="text-decoration-none">Bunga Kecombrang</h4>
+              <h4 class="text-decoration-none card-title">Bunga Kecombrang</h4>
               <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                 <li>Ukuran (kg): 0.25</li>
                
               </ul>
              
-              <p class="text-center mb-0">Rp. 12.500</p>
+              <p class="text-center mb-3">Rp. 12.500</p>
+              <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Bunga%20Kecombrang.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
             </div>
           </div>
         </div>
         <!-- End Content 7 Sayuran Non Daun -->
 
            <!-- Start Content 8 Sayuran Non Daun -->
-           <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+           <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
             <div class="card mb-3 product-wap rounded-0">
               <div class="card rounded-0">
                 <a href="assets/img/product/sayur-non-daun/Biji Melinjo Tengkil.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Biji Melinjo Tengkil.png" /></a>
              
             </div>
             <div class="card-body">
-              <h4 class="text-decoration-none">Biji Melinjo</h4>
+              <h4 class="text-decoration-none card-title">Biji Melinjo</h4>
               <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                 <li>Ukuran (kg): 0.1</li>
                
               </ul>
              
-              <p class="text-center mb-0">Rp. 1.200</p>
+              <p class="text-center mb-3">Rp. 1.200</p>
+              <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Biji%20Melinjo.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
             </div>
           </div>
         </div>
         <!-- End Content 8 Sayuran Non Daun -->
 
         <!-- Start Content 9 Sayuran Non Daun -->
-        <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+        <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
           <div class="card mb-3 product-wap rounded-0">
             <div class="card rounded-0">
               <a href="assets/img/product/sayur-non-daun/Jagung Kulit.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Jagung Kulit.jpg" /></a>
            
           </div>
           <div class="card-body">
-            <h4 class="text-decoration-none">Jagung Kulit</h4>
+            <h4 class="text-decoration-none card-title">Jagung Kulit</h4>
             <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
               <li>Ukuran (kg): 0.5</li>
              
             </ul>
            
-            <p class="text-center mb-0">Rp. 10.000</p>
+            <p class="text-center mb-3">Rp. 10.000</p>
+            <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Jagung%20Kulit.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
           </div>
         </div>
       </div>
       <!-- End Content 9 Sayuran Non Daun -->
 
         <!-- Start Content 10 Sayuran Non Daun -->
-        <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+        <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
           <div class="card mb-3 product-wap rounded-0">
             <div class="card rounded-0">
               <a href="assets/img/product/sayur-non-daun/Jamur Shitake.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Jamur Shitake.png" /></a>
           
           </div>
           <div class="card-body">
-            <h4 class="text-decoration-none">Jamur Shitake</h4>
+            <h4 class="text-decoration-none card-title">Jamur Shitake</h4>
             <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
               <li>Ukuran (kg): 0.2</li>
             
             </ul>
           
-            <p class="text-center mb-0">Rp. 20.000</p>
+            <p class="text-center mb-3">Rp. 20.000</p>
+            <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Jamur%20Shitake.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
           </div>
         </div>
       </div>
       <!-- End Content 10 Sayuran Non Daun -->
 
         <!-- Start Content 11 Sayuran Non Daun -->
-        <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+        <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/Jamur Kancing.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Jamur Kancing.png" /></a>
           
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Jamur Kancing</h4>
+          <h4 class="text-decoration-none card-title">Jamur Kancing</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 0.25</li>
             
           </ul>
           
-          <p class="text-center mb-0">Rp. 11.000</p>
+          <p class="text-center mb-3">Rp. 11.000</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Jamur%20Kancing.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
     </div>
     <!-- End Content 11 Sayuran Non Daun -->
 
       <!-- Start Content 12 Sayuran Non Daun -->
-      <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/Jamur Merang.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Jamur Merang.png" /></a>
         
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Jamur Merang</h4>
+          <h4 class="text-decoration-none card-title">Jamur Merang</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 0.25</li>
           
           </ul>
         
-          <p class="text-center mb-0">Rp. 15.000</p>
+          <p class="text-center mb-3">Rp. 15.000</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Jamur%20Merang.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
     </div>
     <!-- End Content 12 Sayuran Non Daun -->
 
     <!-- Start Content 13 Sayuran Non Daun -->
-    <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+    <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
       <div class="card mb-3 product-wap rounded-0">
         <div class="card rounded-0">
           <a href="assets/img/product/sayur-non-daun/Jamur Portobello.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Jamur Portobello.png" /></a>
       
       </div>
       <div class="card-body">
-        <h4 class="text-decoration-none">Jamur Portobello</h4>
+        <h4 class="text-decoration-none card-title">Jamur Portobello</h4>
         <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
           <li>Ukuran (kg): 0.2</li>
         
         </ul>
       
-        <p class="text-center mb-0">Rp. 20.000</p>
+        <p class="text-center mb-3">Rp. 20.000</p>
+        <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Jamur%20Portobello.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
       </div>
     </div>
     </div>
     <!-- End Content 13 Sayuran Non Daun -->
 
     <!-- Start Content 14 Sayuran Non Daun -->
-    <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+    <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
       <div class="card mb-3 product-wap rounded-0">
         <div class="card rounded-0">
           <a href="assets/img/product/sayur-non-daun/jengkol.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/jengkol.png" /></a>
       
       </div>
       <div class="card-body">
-        <h4 class="text-decoration-none">Jengkol</h4>
+        <h4 class="text-decoration-none card-title">Jengkol</h4>
         <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
           <li>Ukuran (kg): 0.5</li>
         
         </ul>
       
-        <p class="text-center mb-0">Rp. 50.000</p>
+        <p class="text-center mb-3">Rp. 50.000</p>
+        <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Jengkol.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
       </div>
     </div>
     </div>
     <!-- End Content 14 Sayuran Non Daun -->
 
       <!-- Start Content 15 Sayuran Non Daun -->
-      <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/Jamur Shimeji Coklat.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Jamur Shimeji Coklat.png" /></a>
         
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Shimeji Coklat</h4>
+          <h4 class="text-decoration-none card-title">Shimeji Coklat</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 0.15</li>
           
           </ul>
         
-          <p class="text-center mb-0">Rp. 12.600</p>
+          <p class="text-center mb-3">Rp. 12.600</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Jamur%20Shimeji%20Coklat.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
     </div>
     <!-- End Content 15 Sayuran Non Daun -->
 
       <!-- Start Content 16 Sayuran Non Daun -->
-      <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/Jamur Shimeji Putih.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Jamur Shimeji Putih.png" /></a>
         
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Shimeji Putih</h4>
+          <h4 class="text-decoration-none card-title">Shimeji Putih</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 0.15</li>
           
           </ul>
         
-          <p class="text-center mb-0">Rp. 13.500</p>
+          <p class="text-center mb-3">Rp. 13.500</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Jamur%20Shimeji%20Putih.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
     </div>
     <!-- End Content 16 Sayuran Non Daun -->
 
       <!-- Start Content 17 Sayuran Non Daun -->
-      <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/Jamur Enoki.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Jamur Enoki.jpg" /></a>
          
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Jamur Enoki</h4>
+          <h4 class="text-decoration-none card-title">Jamur Enoki</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 0.1</li>
            
           </ul>
          
-          <p class="text-center mb-0">Rp. 2.200</p>
+          <p class="text-center mb-3">Rp. 2.200</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Jamur%20Enoki.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
     </div>
     <!-- End Content 17 Sayuran Non Daun -->
 
       <!-- Start Content 18 Sayuran Non Daun -->
-      <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/Jamur Tiram Putih.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Jamur Tiram Putih.jpg" /></a>
         
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Jamur Tiram Putih</h4>
+          <h4 class="text-decoration-none card-title">Jamur Tiram Putih</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 0.25</li>
           
           </ul>
         
-          <p class="text-center mb-0">Rp. 7.000</p>
+          <p class="text-center mb-3">Rp. 7.000</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Jamur%20Tiram%20Putih.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
     </div>
     <!-- End Content 18 Sayuran Non Daun -->
 
       <!-- Start Content 19 Sayuran Non Daun -->
-      <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/Kacang Tanah Kupas.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Kacang Tanah Kupas.png" /></a>
         
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Kacang Tanah Kupas</h4>
+          <h4 class="text-decoration-none card-title">Kacang Tanah Kupas</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 0.5</li>
           
           </ul>
         
-          <p class="text-center mb-0">Rp. 24.000</p>
+          <p class="text-center mb-3">Rp. 24.000</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Kacang%20Tanah%20Kupas.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
     </div>
     <!-- End Content 19 Sayuran Non Daun -->
 
     <!-- Start Content 20 Sayuran Non Daun -->
-    <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+    <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
       <div class="card mb-3 product-wap rounded-0">
         <div class="card rounded-0">
           <a href="assets/img/product/sayur-non-daun/Kacang Tanah Cangkang.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Kacang Tanah Cangkang.png" /></a>
       
       </div>
       <div class="card-body">
-        <h4 class="text-decoration-none">Kacang Tanah C</h4>
+        <h4 class="text-decoration-none card-title">Kacang Tanah C</h4>
         <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
           <li>Ukuran (kg): 0.25</li>
         
         </ul>
       
-        <p class="text-center mb-0">Rp. 6.000</p>
+        <p class="text-center mb-3">Rp. 6.000</p>
+        <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Kacang%20Tanah%20Cangkang.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
       </div>
     </div>
     </div>
     <!-- End Content 20 Sayuran Non Daun -->
 
       <!-- Start Content 21 Sayuran Non Daun -->
-      <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/Kabocha Hijau.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Kabocha Hijau.jpg" /></a>
         
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Kabocha Hijau</h4>
+          <h4 class="text-decoration-none card-title">Kabocha Hijau</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 0.8</li>
           
           </ul>
         
-          <p class="text-center mb-0">Rp. 11.200</p>
+          <p class="text-center mb-3">Rp. 11.200</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Kabocha%20Hijau.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
     </div>
     <!-- End Content 21 Sayuran Non Daun -->
 
     <!-- Start Content 22 Sayuran Non Daun -->
-    <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+    <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
       <div class="card mb-3 product-wap rounded-0">
         <div class="card rounded-0">
           <a href="assets/img/product/sayur-non-daun/Kabocha Kuning.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Kabocha Kuning.jpg" /></a>
       
       </div>
       <div class="card-body">
-        <h4 class="text-decoration-none">Kabocha Kuning</h4>
+        <h4 class="text-decoration-none card-title">Kabocha Kuning</h4>
         <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
           <li>Ukuran (kg): 0.8</li>
         
         </ul>
       
-        <p class="text-center mb-0">Rp. 9.600</p>
+        <p class="text-center mb-3">Rp. 9.600</p>
+        <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Kobucha%20Kuning.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
       </div>
     </div>
     </div>
     <!-- End Content 22 Sayuran Non Daun -->
 
       <!-- Start Content 23 Sayuran Non Daun -->
-      <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/kembang kol.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/kembang kol.jpg" /></a>
         
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Kembang Kol</h4>
+          <h4 class="text-decoration-none card-title">Kembang Kol</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 0.5</li>
           
           </ul>
         
-          <p class="text-center mb-0">Rp. 22.000</p>
+          <p class="text-center mb-3">Rp. 22.000</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Kembang%20Kol.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
       </div>
       <!-- End Content 23 Sayuran Non Daun -->
 
       <!-- Start Content 24 Sayuran Non Daun -->
-      <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/Kentang Baby.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Kentang Baby.jpg" /></a>
         
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Kentang Baby</h4>
+          <h4 class="text-decoration-none card-title">Kentang Baby</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 0.5</li>
           
           </ul>
         
-          <p class="text-center mb-0">Rp. 8.000</p>
+          <p class="text-center mb-3">Rp. 8.000</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Kentang%20Baby.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
       </div>
       <!-- End Content 24 Sayuran Non Daun -->
 
       <!-- Start Content 25 Sayuran Non Daun -->
-      <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/Kentang Besar.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Kentang Besar.jpg" /></a>
         
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Kentang Besar</h4>
+          <h4 class="text-decoration-none card-title">Kentang Besar</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 1</li>
           
           </ul>
         
-          <p class="text-center mb-0">Rp. 18.000</p>
+          <p class="text-center mb-3">Rp. 18.000</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Kentang%20Besar.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
       </div>
       <!-- End Content 25 Sayuran Non Daun -->
 
       <!-- Start Content 26 Sayuran Non Daun -->
-      <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/Kentang Sedang.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Kentang Sedang.jpg" /></a>
         
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Kentang Sedang</h4>
+          <h4 class="text-decoration-none card-title">Kentang Sedang</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 1</li>
           
           </ul>
         
-          <p class="text-center mb-0">Rp. 19.000</p>
+          <p class="text-center mb-3">Rp. 19.000</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Kentang%20Sedang.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
       </div>
       <!-- End Content 26 Sayuran Non Daun -->
 
       <!-- Start Content 27 Sayuran Non Daun -->
-      <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/Kol ungu.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Kol ungu.png" /></a>
         
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Kol Ungu</h4>
+          <h4 class="text-decoration-none card-title">Kol Ungu</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 0.6</li>
           
           </ul>
         
-          <p class="text-center mb-0">Rp. 20.000</p>
+          <p class="text-center mb-3">Rp. 20.000</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Kol%20Ungu.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
       </div>
       <!-- End Content 27 Sayuran Non Daun -->
 
       <!-- Start Content 28 Sayuran Non Daun -->
-      <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/Kol Putih.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Kol Putih.png" /></a>
         
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Kol Putih</h4>
+          <h4 class="text-decoration-none card-title">Kol Putih</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 0.5</li>
           
           </ul>
         
-          <p class="text-center mb-0">Rp. 10.000</p>
+          <p class="text-center mb-3">Rp. 10.000</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Kol%20Putih.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
       </div>
       <!-- End Content 28 Sayuran Non Daun -->
 
       <!-- Start Content 29 Sayuran Non Daun -->
-      <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/Labu Acar.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Labu Acar.png" /></a>
         
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Labu Acar</h4>
+          <h4 class="text-decoration-none card-title">Labu Acar</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 0.5</li>
           
           </ul>
         
-          <p class="text-center mb-0">Rp. 12.000</p>
+          <p class="text-center mb-3">Rp. 12.000</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Labu%20Acar.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
       </div>
       <!-- End Content 29 Sayuran Non Daun -->
 
       <!-- Start Content 30 Sayuran Non Daun -->
-      <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/Labu Siam.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Labu Siam.png" /></a>
         
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Labu Siam</h4>
+          <h4 class="text-decoration-none card-title">Labu Siam</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 0.5</li>
           
           </ul>
         
-          <p class="text-center mb-0">Rp. 4.000</p>
+          <p class="text-center mb-3">Rp. 4.000</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Labu%20Siam.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
       </div>
       <!-- End Content 30 Sayuran Non Daun -->
 
       <!-- Start Content 31 Sayuran Non Daun -->
-      <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/Leunca.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Leunca.png" /></a>
         
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Leunca</h4>
+          <h4 class="text-decoration-none card-title">Leunca</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 0.25</li>
           
           </ul>
         
-          <p class="text-center mb-0">Rp. 8.000</p>
+          <p class="text-center mb-3">Rp. 8.000</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Leunca.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
       </div>
       <!-- End Content 31 Sayuran Non Daun -->
 
       <!-- Start Content 32 Sayuran Non Daun -->
-      <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/Lobak Putih.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Lobak Putih.png" /></a>
         
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Lobak Putih</h4>
+          <h4 class="text-decoration-none card-title">Lobak Putih</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 0.5</li>
           
           </ul>
         
-          <p class="text-center mb-0">Rp. 8.000</p>
+          <p class="text-center mb-3">Rp. 8.000</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Lobak%20Putih.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
       </div>
       <!-- End Content 32 Sayuran Non Daun -->
 
       <!-- Start Content 33 Sayuran Non Daun -->
-      <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/Oyong.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Oyong.png" /></a>
         
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Oyong</h4>
+          <h4 class="text-decoration-none card-title">Oyong</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 0.5</li>
           
           </ul>
         
-          <p class="text-center mb-0">Rp. 14.000</p>
+          <p class="text-center mb-3">Rp. 14.000</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Oyong.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
       </div>
       <!-- End Content 33 Sayuran Non Daun -->
 
       <!-- Start Content 34 Sayuran Non Daun -->
-      <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/Paria.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Paria.jpg" /></a>
         
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Paria</h4>
+          <h4 class="text-decoration-none card-title">Paria</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 0.5</li>
           
           </ul>
         
-          <p class="text-center mb-0">Rp. 8.000</p>
+          <p class="text-center mb-3">Rp. 8.000</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Paria.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
       </div>
       <!-- End Content 34 Sayuran Non Daun -->
 
       <!-- Start Content 35 Sayuran Non Daun -->
-      <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/Timun Sayur.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Timun Sayur.jpg" /></a>
         
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Timun Sayur</h4>
+          <h4 class="text-decoration-none card-title">Timun Sayur</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 0.5</li>
           
           </ul>
         
-          <p class="text-center mb-0">Rp. 5.000</p>
+          <p class="text-center mb-3">Rp. 5.000</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Timun%20Sayur.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
       </div>
       <!-- End Content 35 Sayuran Non Daun -->
 
       <!-- Start Content 36 Sayuran Non Daun -->
-      <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/Timin Jepang Kiuri.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Timin Jepang Kiuri.png" /></a>
         
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Timun Kiuri</h4>
+          <h4 class="text-decoration-none card-title">Timun Kiuri</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 0.5</li>
           
           </ul>
         
-          <p class="text-center mb-0">Rp. 15.000</p>
+          <p class="text-center mb-3">Rp. 15.000</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Timun%20Kiuri.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
       </div>
       <!-- End Content 36 Sayuran Non Daun -->
 
       <!-- Start Content 37 Sayuran Non Daun -->
-      <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/Terong Ungu.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Terong Ungu.png" /></a>
         
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Terong Ungu</h4>
+          <h4 class="text-decoration-none card-title">Terong Ungu</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 0.5</li>
           
           </ul>
         
-          <p class="text-center mb-0">Rp. 6.000</p>
+          <p class="text-center mb-3">Rp. 6.000</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Terong%20Ungu.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
       </div>
       <!-- End Content 37 Sayuran Non Daun -->
 
       <!-- Start Content 38 Sayuran Non Daun -->
-      <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/Terong Lalap.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Terong Lalap.png" /></a>
         
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Terong Lalap</h4>
+          <h4 class="text-decoration-none card-title">Terong Lalap</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 0.25</li>
           
           </ul>
         
-          <p class="text-center mb-0">Rp. 6.000</p>
+          <p class="text-center mb-3">Rp. 6.000</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Terong%20Lalap.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
       </div>
       <!-- End Content 38 Sayuran Non Daun -->
 
       <!-- Start Content 39 Sayuran Non Daun -->
-      <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/Tomat Ceri.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Tomat Ceri.jpg" /></a>
         
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Tomat Ceri</h4>
+          <h4 class="text-decoration-none card-title">Tomat Ceri</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 0.25</li>
           
           </ul>
         
-          <p class="text-center mb-0">Rp. 12.500</p>
+          <p class="text-center mb-3">Rp. 12.500</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Tomat%20Ceri.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
       </div>
       <!-- End Content 39 Sayuran Non Daun -->
 
       <!-- Start Content 40 Sayuran Non Daun -->
-      <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/Tomat Hijau.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Tomat Hijau.jpg" /></a>
         
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Tomat Hijau</h4>
+          <h4 class="text-decoration-none card-title">Tomat Hijau</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 0.5</li>
           
           </ul>
         
-          <p class="text-center mb-0">Rp. 5.000</p>
+          <p class="text-center mb-3">Rp. 5.000</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Tomat%20Hijau.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
       </div>
       <!-- End Content 40 Sayuran Non Daun -->
 
       <!-- Start Content 41 Sayuran Non Daun -->
-      <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/Tomat Merah.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Tomat Merah.jpg" /></a>
         
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Tomat Merah</h4>
+          <h4 class="text-decoration-none card-title">Tomat Merah</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 0.5</li>
           
           </ul>
         
-          <p class="text-center mb-0">Rp. 8.000</p>
+          <p class="text-center mb-3">Rp. 8.000</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Tomat%20Merah.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
       </div>
       <!-- End Content 41 Sayuran Non Daun -->
 
       <!-- Start Content 42 Sayuran Non Daun -->
-      <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/Singkong.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Singkong.png" /></a>
         
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Singkong</h4>
+          <h4 class="text-decoration-none card-title">Singkong</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 1</li>
           
           </ul>
         
-          <p class="text-center mb-0">Rp. 20.000</p>
+          <p class="text-center mb-3">Rp. 20.000</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Singkong.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
       </div>
       <!-- End Content 42 Sayuran Non Daun -->
 
       <!-- Start Content 43 Sayuran Non Daun -->
-      <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/Ubi Cilembu.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Ubi Cilembu.png" /></a>
         
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Ubi Cilembu</h4>
+          <h4 class="text-decoration-none card-title">Ubi Cilembu</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 1</li>
           
           </ul>
         
-          <p class="text-center mb-0">Rp. 20.000</p>
+          <p class="text-center mb-3">Rp. 20.000</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Ubi%20Cilembu.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
       </div>
       <!-- End Content 43 Sayuran Non Daun -->
 
       <!-- Start Content 44 Sayuran Non Daun -->
-      <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/Ubi Merah.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Ubi Merah.jpg" /></a>
         
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Ubi Merah</h4>
+          <h4 class="text-decoration-none card-title">Ubi Merah</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 1</li>
           
           </ul>
         
-          <p class="text-center mb-0">Rp. 18.000</p>
+          <p class="text-center mb-3">Rp. 18.000</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Ubi%20Merah.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
       </div>
       <!-- End Content 44 Sayuran Non Daun -->
 
       <!-- Start Content 45 Sayuran Non Daun -->
-      <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/Wortel Baby.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Wortel Baby.jpg" /></a>
         
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Wortel Baby</h4>
+          <h4 class="text-decoration-none card-title">Wortel Baby</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 0.5</li>
           
           </ul>
         
-          <p class="text-center mb-0">Rp. 15.000</p>
+          <p class="text-center mb-3">Rp. 15.000</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Wortel%20Baby.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
       </div>
       <!-- End Content 45 Sayuran Non Daun -->
 
       <!-- Start Content 46 Sayuran Non Daun -->
-      <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/Wortel.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Wortel.jpg" /></a>
         
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Wortel</h4>
+          <h4 class="text-decoration-none card-title">Wortel</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 0.5</li>
           
           </ul>
         
-          <p class="text-center mb-0">Rp. 12.000</p>
+          <p class="text-center mb-3">Rp. 12.000</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Wortel.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
       </div>
       <!-- End Content 46 Sayuran Non Daun -->
 
       <!-- Start Content 47 Sayuran Non Daun -->
-      <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+      <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
         <div class="card mb-3 product-wap rounded-0">
           <div class="card rounded-0">
             <a href="assets/img/product/sayur-non-daun/Zuchini.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/sayur-non-daun/Zuchini.png" /></a>
         
         </div>
         <div class="card-body">
-          <h4 class="text-decoration-none">Zuchini</h4>
+          <h4 class="text-decoration-none card-title">Zuchini</h4>
           <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
             <li>Ukuran (kg): 0.5</li>
           
           </ul>
         
-          <p class="text-center mb-0">Rp. 20.000</p>
+          <p class="text-center mb-3">Rp. 20.000</p>
+          <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Zuchini.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
         </div>
       </div>
       </div>
@@ -1599,640 +1683,672 @@
 
               <div class="row gy-3">
             <!-- Start Content 1 Bumbu Dapur -->
-            <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/bumbu-dapur/Bawang Bombay.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/bumbu-dapur/Bawang Bombay.jpg" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Bawang Bombay</h4>
+                  <h4 class="text-decoration-none card-title">Bawang Bombay</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.5</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 15.000</p>
+                  <p class="text-center mb-3">Rp. 15.000</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Bawang%20Bombay.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 1 Bumbu Dapur -->
 
             <!-- Start Content 2 Bumbu Dapur -->
-            <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/bumbu-dapur/Bawang Merah.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/bumbu-dapur/Bawang Merah.jpg" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Bawang Merah</h4>
+                  <h4 class="text-decoration-none card-title">Bawang Merah</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.25</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 13.000</p>
+                  <p class="text-center mb-3">Rp. 13.000</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Bawang%20Merah.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 2 Bumbu Dapur -->
 
             <!-- Start Content 3 Bumbu Dapur -->
-            <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/bumbu-dapur/Bawang Putih.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/bumbu-dapur/Bawang Putih.jpg" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Bawang Putih</h4>
+                  <h4 class="text-decoration-none card-title">Bawang Putih</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.5</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 18.000</p>
+                  <p class="text-center mb-3">Rp. 18.000</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Bawang%20Putih.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 3 Bumbu Dapur -->
 
              <!-- Start Content 4 Bumbu Dapur -->
-             <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+             <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/bumbu-dapur/Cabe Gendot.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/bumbu-dapur/Cabe Gendot.png" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Cabe Gendot</h4>
+                  <h4 class="text-decoration-none card-title">Cabe Gendot</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.25</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 7.500</p>
+                  <p class="text-center mb-3">Rp. 7.500</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Cabe%20Gendot.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 4 Bumbu Dapur -->
 
             <!-- Start Content 5 Bumbu Dapur -->
-            <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/bumbu-dapur/Cabe Tw Merah.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/bumbu-dapur/Cabe Tw Merah.jpg" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Cabe Tw Merah</h4>
+                  <h4 class="text-decoration-none card-title">Cabe Tw Merah</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.25</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 11.000</p>
+                  <p class="text-center mb-3">Rp. 11.000</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Cabe%20Tw%20Merah.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 5 Bumbu Dapur -->
 
               <!-- Start Content 6 Bumbu Dapur -->
-              <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+              <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
                 <div class="card mb-3 product-wap rounded-0">
                   <div class="card rounded-0">
                     <a href="assets/img/product/bumbu-dapur/Cabe Tw Hijau.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/bumbu-dapur/Cabe Tw Hijau.png" /></a>
                     
                   </div>
                   <div class="card-body">
-                    <h4 class="text-decoration-none">Cabe Tw Hijau</h4>
+                    <h4 class="text-decoration-none card-title">Cabe Tw Hijau</h4>
                     <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                       <li>Ukuran (kg): 0.25</li>
                      
                     </ul>
                    
-                    <p class="text-center mb-0">Rp. 20.000</p>
+                    <p class="text-center mb-3">Rp. 20.000</p>
+                    <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Cabe%20Tw%20Hijau.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                   </div>
                 </div>
               </div>
               <!-- End Content 6 Bumbu Dapur -->
 
             <!-- Start Content 7 Bumbu Dapur -->
-            <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/bumbu-dapur/Cabe Keriting Hijau.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/bumbu-dapur/Cabe Keriting Hijau.png" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Cabe Keriting H</h4>
+                  <h4 class="text-decoration-none card-title">Cabe Keriting H</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.25</li>
                     
                   </ul>
                   
-                  <p class="text-center mb-0">Rp. 7.500</p>
+                  <p class="text-center mb-3">Rp. 7.500</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Cabe%20Keriting%20Hijau%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 7 Bumbu Dapur -->
 
               <!-- Start Content 8 Bumbu Dapur -->
-              <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+              <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
                 <div class="card mb-3 product-wap rounded-0">
                   <div class="card rounded-0">
                     <a href="assets/img/product/bumbu-dapur/Cabe Keriting Merah.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/bumbu-dapur/Cabe Keriting Merah.png" /></a>
                     
                   </div>
                   <div class="card-body">
-                    <h4 class="text-decoration-none">Cabe Keriting M</h4>
+                    <h4 class="text-decoration-none card-title">Cabe Keriting M</h4>
                     <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                       <li>Ukuran (kg): 0.25</li>
                       
                     </ul>
                     
-                    <p class="text-center mb-0">Rp. 8.500</p>
+                    <p class="text-center mb-3">Rp. 8.500</p>
+                    <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Cabe%20Keriting%20Merah.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                   </div>
                 </div>
               </div>
               <!-- End Content 7 Bumbu Dapur -->
 
                 <!-- Start Content 9 Bumbu Dapur -->
-                <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+                <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
                 <div class="card mb-3 product-wap rounded-0">
                   <div class="card rounded-0">
                     <a href="assets/img/product/bumbu-dapur/Cabe Rawit Hijau.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/bumbu-dapur/Cabe Rawit Hijau.png" /></a>
                     
                   </div>
                   <div class="card-body">
-                    <h4 class="text-decoration-none">Cabe Rawit H</h4>
+                    <h4 class="text-decoration-none card-title">Cabe Rawit H</h4>
                     <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                       <li>Ukuran (kg): 0.1</li>
                       
                     </ul>
                     
-                    <p class="text-center mb-0">Rp. 5.000</p>
+                    <p class="text-center mb-3">Rp. 5.000</p>
+                    <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Cabe%20Rawit%20Hijau.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                   </div>
                 </div>
               </div>
               <!-- End Content 9 Bumbu Dapur -->
 
                   <!-- Start Content 10 Bumbu Dapur -->
-                  <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+                  <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
                   <div class="card mb-3 product-wap rounded-0">
                     <div class="card rounded-0">
                       <a href="assets/img/product/bumbu-dapur/Cabe Rawit Merah.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/bumbu-dapur/Cabe Rawit Merah.png" /></a>
                       
                     </div>
                     <div class="card-body">
-                      <h4 class="text-decoration-none">Cabe Rawit M</h4>
+                      <h4 class="text-decoration-none card-title">Cabe Rawit M</h4>
                       <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                         <li>Ukuran (kg): 0.1</li>
                         
                       </ul>
                       
-                      <p class="text-center mb-0">Rp. 4.200</p>
+                      <p class="text-center mb-3">Rp. 4.200</p>
+                      <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Cabe%20Rawit%20Merah.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                     </div>
                   </div>
                 </div>
                 <!-- End Content 10 Bumbu Dapur -->
 
              <!-- Start Content 11 Bumbu Dapur -->
-             <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+             <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/bumbu-dapur/Daun Bawang.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/bumbu-dapur/Daun Bawang.jpg" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Daun Bawang</h4>
+                  <h4 class="text-decoration-none card-title">Daun Bawang</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.1</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 1.000</p>
+                  <p class="text-center mb-3">Rp. 1.000</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Daun%20Bawang.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 11 Bumbu Dapur -->
 
              <!-- Start Content 12 Bumbu Dapur -->
-             <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+             <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/bumbu-dapur/Daun Jeruk.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/bumbu-dapur/Daun Jeruk.jpg" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Daun Jeruk</h4>
+                  <h4 class="text-decoration-none card-title">Daun Jeruk</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.04</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 880</p>
+                  <p class="text-center mb-3">Rp. 880</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Daun%20Jeruk.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 12 Bumbu Dapur -->
 
              <!-- Start Content 13 Bumbu Dapur -->
-             <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+             <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/bumbu-dapur/Daun Mint.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/bumbu-dapur/Daun Mint.jpg" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Daun Mint</h4>
+                  <h4 class="text-decoration-none card-title">Daun Mint</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.1</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 3.000</p>
+                  <p class="text-center mb-3">Rp. 3.000</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Daun%20Mint.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 13 Bumbu Dapur -->
 
              <!-- Start Content 14 Bumbu Dapur -->
-             <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+             <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/bumbu-dapur/Daun Pisang.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/bumbu-dapur/Daun Pisang.jpg" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Daun Pisang / Ikat</h4>
+                  <h4 class="text-decoration-none card-title">Daun Pisang / Ikat</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.5</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 8.000</p>
+                  <p class="text-center mb-3">Rp. 8.000</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Daun%20Pisang%20/%20Ikat.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 14 Bumbu Dapur -->
 
             <!-- Start Content 15 Bumbu Dapur -->
-            <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/bumbu-dapur/Daun Salam.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/bumbu-dapur/Daun Salam.jpg" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Daun Salam / Ikat</h4>
+                  <h4 class="text-decoration-none card-title">Daun Salam / Ikat</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.1</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 1.000</p>
+                  <p class="text-center mb-3">Rp. 1.000</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Daun%20Salam%20/%20Ikat.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 15 Bumbu Dapur -->
 
             <!-- Start Content 16 Bumbu Dapur -->
-            <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/bumbu-dapur/Daun Seledri.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/bumbu-dapur/Daun Seledri.jpg" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Daun Seledri</h4>
+                  <h4 class="text-decoration-none card-title">Daun Seledri</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.1</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 600</p>
+                  <p class="text-center mb-3">Rp. 600</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Daun%20Seledri.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 16 Bumbu Dapur -->
 
               <!-- Start Content 17 Bumbu Dapur -->
-              <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+              <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
                 <div class="card mb-3 product-wap rounded-0">
                   <div class="card rounded-0">
                     <a href="assets/img/product/bumbu-dapur/Jahe Merah.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/bumbu-dapur/Jahe Merah.png" /></a>
                     
                   </div>
                   <div class="card-body">
-                    <h4 class="text-decoration-none">Jahe Merah</h4>
+                    <h4 class="text-decoration-none card-title">Jahe Merah</h4>
                     <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                       <li>Ukuran (kg): 0.25</li>
                      
                     </ul>
                    
-                    <p class="text-center mb-0">Rp. 4.000</p>
+                    <p class="text-center mb-3">Rp. 4.000</p>
+                    <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Jahe%20Merah.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                   </div>
                 </div>
               </div>
               <!-- End Content 17 Bumbu Dapur -->
 
             <!-- Start Content 18 Bumbu Dapur -->
-            <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/bumbu-dapur/Jeruk Lemon Hijau.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/bumbu-dapur/Jeruk Lemon Hijau.jpg" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Jeruk Lemon Hijau</h4>
+                  <h4 class="text-decoration-none card-title">Jeruk Lemon Hijau</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.25</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 4.000</p>
+                  <p class="text-center mb-3">Rp. 4.000</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Jeruk%20Lemon%20Hijau.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 18 Bumbu Dapur -->
 
               <!-- Start Content 19 Bumbu Dapur -->
-              <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+              <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
                 <div class="card mb-3 product-wap rounded-0">
                   <div class="card rounded-0">
                     <a href="assets/img/product/bumbu-dapur/Jamur Kuping.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/bumbu-dapur/Jamur Kuping.png" /></a>
                     
                   </div>
                   <div class="card-body">
-                    <h4 class="text-decoration-none">Jamur Kuping</h4>
+                    <h4 class="text-decoration-none card-title">Jamur Kuping</h4>
                     <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                       <li>Ukuran (kg): 0.1</li>
                      
                     </ul>
                    
-                    <p class="text-center mb-0">Rp. 5.000</p>
+                    <p class="text-center mb-3">Rp. 5.000</p>
+                    <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Jamur%20Kuping.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                   </div>
                 </div>
               </div>
               <!-- End Content 19 Bumbu Dapur -->
 
               <!-- Start Content 20 Bumbu Dapur -->
-              <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+              <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
                 <div class="card mb-3 product-wap rounded-0">
                   <div class="card rounded-0">
                     <a href="assets/img/product/bumbu-dapur/Jamur Tiram.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/bumbu-dapur/Jamur Tiram.png" /></a>
                     
                   </div>
                   <div class="card-body">
-                    <h4 class="text-decoration-none">Jamur Tiram</h4>
+                    <h4 class="text-decoration-none card-title">Jamur Tiram</h4>
                     <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                       <li>Ukuran (kg): 0.1</li>
                      
                     </ul>
                    
-                    <p class="text-center mb-0">Rp. 15.000</p>
+                    <p class="text-center mb-3">Rp. 15.000</p>
+                    <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Jamur%20Tiram.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                   </div>
                 </div>
               </div>
               <!-- End Content 20 Bumbu Dapur -->
 
             <!-- Start Content 21 Bumbu Dapur -->
-            <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/bumbu-dapur/Jeruk Lemon Kuning.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/bumbu-dapur/Jeruk Lemon Kuning.jpg" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Jeruk Lemon Kuning</h4>
+                  <h4 class="text-decoration-none card-title">Jeruk Lemon Kuning</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.25</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 7.000</p>
+                  <p class="text-center mb-3">Rp. 7.000</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Jeruk%20Lemon%20Kuning.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 21 Bumbu Dapur -->
 
              <!-- Start Content 22 Bumbu Dapur -->
-             <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+             <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/bumbu-dapur/Jeruk Limau.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/bumbu-dapur/Jeruk Limau.jpg" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Jeruk Limau</h4>
+                  <h4 class="text-decoration-none card-title">Jeruk Limau</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.25</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 8.000</p>
+                  <p class="text-center mb-3">Rp. 8.000</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Jeruk%20Limau.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 22 Bumbu Dapur -->
 
              <!-- Start Content 23 Bumbu Dapur -->
-             <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+             <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/bumbu-dapur/Jeruk Nipis.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/bumbu-dapur/Jeruk Nipis.jpg" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Jeruk Nipis</h4>
+                  <h4 class="text-decoration-none card-title">Jeruk Nipis</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.25</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 11.000</p>
+                  <p class="text-center mb-3">Rp. 11.000</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Jeruk%20Nipis.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 23 Bumbu Dapur -->
 
              <!-- Start Content 24 Bumbu Dapur -->
-             <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+             <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/bumbu-dapur/Paprika kuning.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/bumbu-dapur/Paprika kuning.png" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Paprika Kuning</h4>
+                  <h4 class="text-decoration-none card-title">Paprika Kuning</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.25</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 27.500</p>
+                  <p class="text-center mb-3">Rp. 27.500</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Paprika%20Kuning.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 24 Bumbu Dapur -->
 
              <!-- Start Content 25 Bumbu Dapur -->
-             <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+             <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/bumbu-dapur/Paprika Hijau.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/bumbu-dapur/Paprika Hijau.jpg" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Paprika Hijau</h4>
+                  <h4 class="text-decoration-none card-title">Paprika Hijau</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.25</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 17.500</p>
+                  <p class="text-center mb-3">Rp. 17.500</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Paprika%20Hijau.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 25 Bumbu Dapur -->
 
              <!-- Start Content 26 Bumbu Dapur -->
-             <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+             <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/bumbu-dapur/Paprika Merah.jpg" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/bumbu-dapur/Paprika Merah.jpg" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Paprika Merah</h4>
+                  <h4 class="text-decoration-none card-title">Paprika Merah</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.25</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 25.000</p>
+                  <p class="text-center mb-3">Rp. 25.000</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Paprika%20Merah.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 26 Bumbu Dapur -->
 
              <!-- Start Content 27 Bumbu Dapur -->
-             <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+             <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/bumbu-dapur/Lengkuas.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/bumbu-dapur/Lengkuas.png" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Lengkuas</h4>
+                  <h4 class="text-decoration-none card-title">Lengkuas</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.2</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 4.800</p>
+                  <p class="text-center mb-3">Rp. 4.800</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Lengkuas.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 27 Bumbu Dapur -->
 
              <!-- Start Content 28 Bumbu Dapur -->
-             <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+             <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/bumbu-dapur/kencur.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/bumbu-dapur/kencur.png" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Kencur</h4>
+                  <h4 class="text-decoration-none card-title">Kencur</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.25</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 9.000</p>
+                  <p class="text-center mb-3">Rp. 9.000</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Kencur.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 28 Bumbu Dapur -->
 
              <!-- Start Content 29 Bumbu Dapur -->
-             <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+             <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/bumbu-dapur/ketumbar.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/bumbu-dapur/ketumbar.png" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Ketumbar</h4>
+                  <h4 class="text-decoration-none card-title">Ketumbar</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.1</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 15.000</p>
+                  <p class="text-center mb-3">Rp. 15.000</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Ketumbar.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 29 Bumbu Dapur -->
 
              <!-- Start Content 30 Bumbu Dapur -->
-             <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+             <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/bumbu-dapur/kunyit.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/bumbu-dapur/kunyit.png" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Kunyit</h4>
+                  <h4 class="text-decoration-none card-title">Kunyit</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.2</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 6.400</p>
+                  <p class="text-center mb-3">Rp. 6.400</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Kunyit.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 30 Bumbu Dapur -->
 
              <!-- Start Content 31 Bumbu Dapur -->
-             <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+             <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/bumbu-dapur/kemiri.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/bumbu-dapur/kemiri.png" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Kemiri</h4>
+                  <h4 class="text-decoration-none card-title">Kemiri</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.1</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 2.400</p>
+                  <p class="text-center mb-3">Rp. 2.400</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Kemiri.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
             <!-- End Content 31 Bumbu Dapur -->
 
             <!-- Start Content 32 Bumbu Dapur -->
-            <div class="col-lg-3 col-md-3 col-sm-4 menu-item">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-6 menu-item">
               <div class="card mb-3 product-wap rounded-0">
                 <div class="card rounded-0">
                   <a href="assets/img/product/bumbu-dapur/Sawi Putih.png" class="glightbox"><img class="card-img rounded-0 img-fluid menu-img" src="assets/img/product/bumbu-dapur/Sawi Putih.png" /></a>
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Sawi Putih</h4>
+                  <h4 class="text-decoration-none card-title">Sawi Putih</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.25</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 8.000</p>
+                  <p class="text-center mb-3">Rp. 8.000</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Sawi%20Putih.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
@@ -2259,13 +2375,14 @@
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Tempe Premium</h4>
+                  <h4 class="text-decoration-none card-title">Tempe Premium</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.65</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 14.000</p>
+                  <p class="text-center mb-3">Rp. 14.000</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Tempe%20Premium%20Ukuran%20(kg)%200.65.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
@@ -2279,13 +2396,14 @@
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Tempe Premium</h4>
+                  <h4 class="text-decoration-none card-title">Tempe Premium</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.75</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 16.000</p>
+                  <p class="text-center mb-3">Rp. 16.000</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Tempe%20Premium%20Ukuran%20(kg)%200.75.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
@@ -2299,13 +2417,14 @@
                   
                 </div>
                 <div class="card-body">
-                  <h4 class="text-decoration-none">Tempe Premium</h4>
+                  <h4 class="text-decoration-none card-title">Tempe Premium</h4>
                   <ul class="w-100 list-unstyled d-flex justify-content-center mb-0">
                     <li>Ukuran (kg): 0.86</li>
                    
                   </ul>
                  
-                  <p class="text-center mb-0">Rp. 16.500</p>
+                  <p class="text-center mb-3">Rp. 16.500</p>
+                  <a href="https://wa.me/682127170543?text=Hallo!%20Mau%20pesan%20Tempe%20Premium%20Ukuran%20(kg)%200.86.%20Apakah%20stock%20tersedia?" target="_blank" class="btn-buy">Buy Now</a>
                 </div>
               </div>
             </div>
@@ -2318,7 +2437,7 @@
 
             </div>
           </div>
-         </div>
+         
         </section>
     
     <!-- End Content -->
@@ -2825,7 +2944,6 @@
 
     <div id="preloader"></div>
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-    <a class="admin1" href="#" target="_blank"> <img src="assets/img/1.png" alt="GrabFood" class="img-fluid"> </a>
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/aos/aos.js"></script>
@@ -2835,8 +2953,12 @@
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
     <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js"></script>
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/search.js"></script>
+    <script src="jquery.js"></script>
+
   </body>
 </html>
