@@ -691,12 +691,15 @@ section {
   font-weight: 500;
   letter-spacing: 1px;
   transition: 0.3s;
-  justify-content: center;
 }
 
 .btn-buy:hover {
   background: #4d6a66;
   color: rgb(255, 255, 255);
+}
+
+.menu .card-body {
+  text-align: center;
 }
 
 @media (max-width: 992px) {
